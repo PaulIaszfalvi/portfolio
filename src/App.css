@@ -1,3 +1,9 @@
+.sections {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
 .App {
   text-align: center;
 }

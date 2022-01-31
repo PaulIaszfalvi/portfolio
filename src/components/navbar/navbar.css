@@ -1,0 +1,46 @@
+.buttons {
+  position: relative;
+  margin-right: auto;
+  float: right;
+  display: inline;
+}
+
+.buttonsList {
+  vertical-align: middle;
+  /* Center buttons vertically */
+  display: flex;
+  align-items: center;
+}
+
+.navContainer {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.5);
+  /* opacity: 0.5; */
+  vertical-align: middle;
+}
+
+.navbar {
+}
+
+.home {
+}
+
+button {
+  height: 5vh;
+  width: 7.5vh;
+}
+
+li {
+  font-size: xx-large;
+  display: inline;
+  margin: 1vw;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(8, 0, 53);
+}
