@@ -30,8 +30,8 @@
 }
 
 button {
-  height: 5vh;
-  width: 7.5vh;
+  /* height: 5vh;
+  width: 7.5vh; */
 }
 
 li {
@@ -43,4 +43,15 @@ li {
 a {
   text-decoration: none;
   color: rgb(8, 0, 53);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
