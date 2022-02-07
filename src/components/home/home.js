@@ -6,7 +6,7 @@ import video from "../videos/backgroundNikita.mp4";
 
 function home() {
   return (
-    <div id="home">
+    <div className="mx-auto" id="home">
       {<img src={background} alt="" className="background" />}
       {/* <video
         loop="loop"

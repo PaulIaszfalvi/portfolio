@@ -7,12 +7,18 @@ import Portfolio from "./components/portfolio/portfolio";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div className="sections">
+      <header>
+        {" "}
+        <Navbar />{" "}
+      </header>
+
+      <body className="sections">
         <Home />
         <About />
         <Portfolio />
-      </div>
+      </body>
+
+      <footer></footer>
     </div>
   );
 }

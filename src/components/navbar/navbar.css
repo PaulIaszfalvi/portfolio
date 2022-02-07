@@ -12,20 +12,18 @@
   align-items: center;
 }
 
-.navContainer {
-  width: 100%;
+.navbar {
+  max-width: 1500px;
   height: 100px;
+
   position: fixed;
+  width: 100%;
   top: 0;
   z-index: 3;
   background: rgba(0, 0, 0, 0.5);
   /* opacity: 0.5; */
   vertical-align: middle;
 }
-
-.navbar {
-}
-
 .home {
 }
 
