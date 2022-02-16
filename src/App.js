@@ -7,7 +7,7 @@ import Portfolio from "./components/portfolio/portfolio";
 function App() {
   return (
     <div className="App">
-      <header>
+      <header className="navheader mx-auto">
         {" "}
         <Navbar />{" "}
       </header>

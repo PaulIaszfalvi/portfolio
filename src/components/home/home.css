@@ -1,17 +1,46 @@
-img {
+/* img {
   width: 100%;
+  object-fit: cover;
 }
 
 video {
   width: 100%;
-
   object-fit: cover;
-}
+} */
 
-body {
+.wholepage-home {
+  /* background-image: url("../images/contact.jpg"); */
+  background-image: linear-gradient(red, orange);
+  background-size: cover;
+  /* display: flex; */
+  width: 100%;
+  height: 100vh;
+}
+.content {
+  max-width: 1500px;
+  padding-top: 200px;
+  font-size: 40px;
+  background-color: rgb(3, 3, 3, 0.1);
+  height: 100vh;
 }
 
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-selfie {
+  display: absolute;
+
+  width: fit-content;
+  height: fit-content;
+}
+
+.text-about-me {
+  width: 50%;
+  flex: 1;
+}
+
+.home-content {
+  display: flex;
 }

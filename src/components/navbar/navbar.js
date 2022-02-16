@@ -4,8 +4,8 @@ import { scroller } from "react-scroll";
 
 function navbar() {
   return (
-    <div className="navbar">
-      <nav className="buttons">
+    <div className="navbar mx-auto">
+      <nav className="buttons hidden md:block">
         {/* <button className="home">Home</button>
           <button className="about">About</button>
           <button className="projects">Projects</button>

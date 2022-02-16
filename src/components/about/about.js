@@ -5,8 +5,18 @@ import "./about.css";
 
 function about() {
   return (
-    <div id="about">
-      <img src={background} alt="" className="background" />
+    <div className="wholepage-about" id="about">
+      <div className="content mx-auto">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          saepe explicabo est atque non, corporis ducimus, quo facere neque
+          aliquid fugiat aspernatur eligendi earum blanditiis. Harum magnam illo
+          dolor excepturi qui? Illo deserunt aperiam, inventore eaque doloremque
+          vero quidem magnam praesentium! Itaque quaerat est reprehenderit
+          repellendus, eos deleniti qui sequi.
+        </p>
+      </div>
+      {/* <img src={background} alt="" className="background" /> */}
     </div>
   );
 }
