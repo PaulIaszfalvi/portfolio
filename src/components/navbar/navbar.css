@@ -1,61 +1,7 @@
-.buttons {
-  position: relative;
-  margin-right: auto;
-  float: right;
-  display: inline;
-}
-
-.buttonsList {
-  vertical-align: middle;
-  /* Center buttons vertically */
-  display: flex;
-  align-items: center;
-}
-
-.navbar {
-  max-width: 1500px;
-  height: 70px;
-
+.navibar {
   position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 3;
-  background: rgba(0, 0, 0, 0.2);
-  /* opacity: 0.5; */
-  /* vertical-align: middle;*/
+  z-index: 200;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.home {
-}
-
-button {
-  /* height: 5vh;
-  width: 7.5vh; */
-}
-
-li {
-  font-size: xx-large;
-  display: inline;
-  margin: 1vw;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(8, 0, 53);
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navlinks {
 }

@@ -1,8 +1,4 @@
-img {
-  width: 100%;
-}
-
-.wholepage-about {
-  background-image: linear-gradient(orange, yellow);
+.aboutpage {
+  background: linear-gradient(red, orange);
   height: 100vh;
 }
