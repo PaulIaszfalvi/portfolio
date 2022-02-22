@@ -1,4 +1,4 @@
-.sections {
+/* .sections {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   scrollbar-width: none;
@@ -8,9 +8,9 @@
   position: relative;
 
   /* Create a gap */
-  /* height: calc(100vh - 100px);
+/* height: calc(100vh - 100px);
   top: 100px; */
-
+/*
   scroll-snap-type: y mandatory;
   scroll-snap-align: start;
   scrollbar-width: none;
@@ -30,4 +30,4 @@ footer {
 
 .navheader {
   max-width: 1500px;
-}
+} */

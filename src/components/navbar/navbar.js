@@ -4,11 +4,16 @@ import "./navbar.css";
 
 function navbar() {
   return (
-    <div className="navibar">
+    <div className="navibar fixed-top">
       <Navbar expand="lg">
-        <Navbar.Brand href="/">Portfolio PI</Navbar.Brand>
+        <Navbar.Brand className="col-sm-2 col-xs-auto" href="/">
+          Portfolio PI
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse
+          className="button-holder col-sm-10"
+          id="basic-navbar-nav"
+        >
           <Nav className="ml-auto">
             <Nav.Item>
               <Nav.Link href="#home">Home</Nav.Link>

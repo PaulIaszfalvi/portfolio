@@ -1,4 +1,10 @@
 .aboutpage {
-  background: linear-gradient(red, orange);
+  background: grey;
   height: 100vh;
+
+  padding-top: 100px;
+}
+
+.part-one {
+  line-height: 2em;
 }

@@ -1,4 +1,5 @@
 .portfoliopage {
-  background: linear-gradient(orange, yellow);
+  padding-top: 100px;
+  background: grey;
   height: 100vh;
 }

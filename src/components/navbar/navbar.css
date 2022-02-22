@@ -1,7 +1,19 @@
 .navibar {
-  position: fixed;
   z-index: 200;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .navlinks {
+}
+
+.button-holder {
+}
+
+.navbar {
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: none;
+  }
 }

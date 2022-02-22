@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <header className="navheader mx-auto">
+        <header className="navheader">
           {" "}
           <Navbar />{" "}
         </header>

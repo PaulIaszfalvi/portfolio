@@ -1,5 +1,10 @@
 .homepage {
   padding-top: 100px;
-  background: linear-gradient(purple, red);
+  background: grey;
   height: 100vh;
+}
+
+.paragraph {
+  text-indent: 40px;
+  line-height: 2em;
 }
