@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import mySelfie from "../images/selfie.jpg";
+import mySelfie from "../images/selfie.png";
 
 function home() {
   return (
@@ -11,6 +11,7 @@ function home() {
             src={mySelfie}
             className="img-responsive center-block p-20 rounded-circle"
             alt=""
+            id="mySelfie"
           />
         </div>
         <div className="statement col-md-6 col-xs-12 order-md-1">
@@ -25,6 +26,14 @@ function home() {
             itaque tempore voluptatem sint laudantium vero nulla placeat
             incidunt deleniti, eaque molestiae!
           </p>
+        </div>
+        <div className="buttons col-md-6 col-xs-12 order-md-3">
+          <a href="../files/PaulIaszfalviResume.docx/" className="p-10">
+            Download CV
+          </a>
+          <a href="#Contact" className="p-10">
+            Contact
+          </a>
         </div>
       </div>
     </div>

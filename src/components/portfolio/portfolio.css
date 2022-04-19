@@ -3,3 +3,9 @@
   background: grey;
   height: 100vh;
 }
+
+.card {
+  display: inline-flex;
+  width: 18rem;
+  margin: 2rem;
+}

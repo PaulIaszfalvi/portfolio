@@ -1,10 +1,29 @@
 .homepage {
   padding-top: 100px;
-  background: grey;
+  background: rgb(0, 150, 255);
   height: 100vh;
 }
 
 .paragraph {
   text-indent: 40px;
   line-height: 2em;
+}
+
+.photo {
+  float: right;
+  width: 50%;
+}
+
+.statement {
+  float: left;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttons {
+  height: 20vh;
+  width: 20vw;
+  display: flex;
+  margin-left: 10%;
 }

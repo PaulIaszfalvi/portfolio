@@ -5,26 +5,25 @@ import Home from "./components/home/home";
 import About from "./components/about/about";
 import Portfolio from "./components/portfolio/portfolio";
 import Contact from "./components/contact/contact";
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <Layout>
-        <header className="navheader">
-          {" "}
-          <Navbar />{" "}
-        </header>
+    <Layout>
+      <header className="navheader">
+        {" "}
+        <Navbar />{" "}
+      </header>
 
-        <body className="sections">
-          <Home />
-          <About />
-          <Portfolio />
-          <Contact />
-        </body>
+      <div className="content">
+        <Home />
+        <About />
+        <Portfolio />
+        <Contact />
+      </div>
 
-        <footer></footer>
-      </Layout>
-    </div>
+      <footer></footer>
+    </Layout>
   );
 }
 

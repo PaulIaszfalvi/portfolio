@@ -1,33 +1,5 @@
-/* .sections {
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-  scrollbar-width: none;
-
-  width: 100%;
-
-  position: relative;
-
-  /* Create a gap */
-/* height: calc(100vh - 100px);
-  top: 100px; */
-/*
-  scroll-snap-type: y mandatory;
-  scroll-snap-align: start;
-  scrollbar-width: none;
+.hide-scrollbar {
+  overflow: auto;
+  -ms-overflow-style: none; /* IE 11 */
+  scrollbar-width: none; /* Firefox 64 */
 }
-
-header,
-body,
-footer {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.navheader {
-  max-width: 1500px;
-} */
